@@ -16,3 +16,5 @@ RoxygenNote: 7.1.1
 Imports: 
     lifecycle,
     magrittr
+URL: https://github.com/arturhgq/Qutils
+BugReports: https://github.com/arturhgq/Qutils/issues
