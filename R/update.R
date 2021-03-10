@@ -37,6 +37,7 @@ package_update <- function(.update_data = FALSE, .update_readme = FALSE, .check 
 #' @description `r lifecycle::badge("experimental")`
 #'
 #' @param ... data
+#' @param .from_scratch FALSO por definição
 #'
 #'
 #' @export

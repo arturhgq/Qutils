@@ -7,6 +7,8 @@
 data_update(.from_scratch, ...)
 }
 \arguments{
+\item{.from_scratch}{FALSO por definição}
+
 \item{...}{data}
 }
 \description{
