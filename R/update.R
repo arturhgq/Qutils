@@ -38,14 +38,15 @@ package_update <- function(.update_data = FALSE, .update_readme = FALSE, .check 
 #'
 #' @param ... data
 #' @param .from_scratch FALSO por definição
+#' @param .path path
 #'
 #'
 #' @export
 #'
-data_update <- function(.from_scratch, ...) {
+data_update <- function(.path = "data-raw", .from_scratch, ...) {
 
   if (missing(.from_scratch)) {
-    fs::dir_ls("data", glob = "*.R") %>%
+    fs::dir_ls(.path, glob = "*.R") %>%
       purrr::map(source)
   }else{usethis::use_data(..., overwrite = TRUE)
   }

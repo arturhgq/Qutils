@@ -4,9 +4,11 @@
 \alias{data_update}
 \title{Atualiza os bancos de dados de uma biblioteca de funções}
 \usage{
-data_update(.from_scratch, ...)
+data_update(.path = "data-raw", .from_scratch, ...)
 }
 \arguments{
+\item{.path}{path}
+
 \item{.from_scratch}{FALSO por definição}
 
 \item{...}{data}
