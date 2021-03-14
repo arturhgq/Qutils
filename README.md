@@ -32,6 +32,14 @@ Try the development version from [GitHub](https://github.com/) instead:
 devtools::install_github("arturhgq/Qutils")
 ```
 
+## Example
+
+``` r
+library(magrittr)
+Qutils::not.na(mtcars$mpg) %>% unique()
+#> [1] TRUE
+```
+
 ## Code of Conduct
 
 Please note that the Qutils project is released with a [Contributor Code
